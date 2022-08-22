@@ -147,7 +147,7 @@ class App
             'SmallHeart',
             'MaterialObject',
             'AloneTcpClient',
-            'ZoneTcpClient',
+            //'ZoneTcpClient',
             'StormRaffle',
             'GiftRaffle',
             'PkRaffle',
