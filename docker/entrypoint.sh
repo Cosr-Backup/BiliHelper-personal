@@ -51,6 +51,7 @@ esac
 
 # 拉取更新
 echo -e "\n ======== \n ${Info} ${GreenBG} 正使用 git pull 同步项目 ${Font} \n ======== \n"
+git reset --hard
 git pull
 
 # 安装依赖
