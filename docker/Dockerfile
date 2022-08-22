@@ -5,7 +5,7 @@ LABEL AUTHOR = "Lkeme <Useri@live.cn>"
 
 ENV USER_NAME='' \
     USER_PASSWORD='' \
-    REPO_URL='https://github.com/' \
+    REPO_URL='https://hub.fastgit.xyz/' \
     CUSTOM_CLONE_URL='https://speed.example.com/example/example.git' \
     MIRRORS="0" \
     CONIFG_PATH='/app/conf/user.ini' \
