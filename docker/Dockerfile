@@ -34,7 +34,7 @@ RUN docker-php-ext-install sockets
 #    && echo "Asia/Shanghai" > /etc/timezone \
 
 RUN apk add --no-cache git && \
-    git clone ${REPO_URL}/lkeme/BiliHelper-personal.git --depth=1 /app && \
+    git clone ${REPO_URL}/Cosr-Backup/BiliHelper-personal.git --depth=1 /app && \
     cp -f /app/docker/entrypoint.sh /usr/local/bin/entrypoint.sh && \
     chmod 777 /usr/local/bin/entrypoint.sh && \
     php -r "copy('https://install.phpcomposer.com/installer', 'composer-setup.php');" && \
